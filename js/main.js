@@ -5,7 +5,8 @@ $( document ).ready(function() {
   var key = '3629ea7365407c37c39077a452cb5df3';
 
 
-  //The API has a limit to get maximum 20 posts, that is why I make five settings with different url-links to be abele to show 100 post.
+  //The API has a limit to get maximum 20 posts, that is why I make five settings with different
+  //url-links to be abele to show 100 post.
   var settings1 = {
     "async": true,
     "crossDomain": true,
@@ -54,7 +55,7 @@ $( document ).ready(function() {
 
   getResults(settings);
 
-  //to load posts when a function is done, to get the right order.
+  //load posts when a function is done, to get the right order.
   function getResults(settings) {
     $.ajax(settings[0]).done(function(response) {
       printResults(response);

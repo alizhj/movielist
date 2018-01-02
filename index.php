@@ -8,6 +8,7 @@
 
 <body>
   <h1>Movies Top 100</h1>
+
   <div class="loader-wrapper active">
     <div class="loader">
       <span></span>
@@ -15,6 +16,7 @@
       <span></span>
     </div>
   </div>
+  
   <ol class="list">
 
   </ol>
